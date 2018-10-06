@@ -1,9 +1,9 @@
-baseurl: /starter
+baseurl: /studentblog
 permalink: pretty
 prose:
   rooturl: '_posts'
-  siteurl: 'http://publisha.github.io/studentblog/'
-  relativeLinks: 'http://publisha.github.io/studentblog/links.jsonp'
+  siteurl: 'https://publisha.github.io/studentblog/'
+  relativeLinks: 'https://publisha.github.io/studentblog/links.jsonp'
   media: 'media'
   metadata:
     _posts:
