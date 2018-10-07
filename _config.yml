@@ -1,31 +1,27 @@
-title:            Allan Denot
-description:      "Dreams of DevOps"
+title:            Student Blog
+description:      "What is this about?"
 logo:             logo.png
-disqus_shortname: adenot
+disqus_shortname:
 share:            true
 dropcap:		      true
-# Change url to your domain. Leave localhost server or blank when working locally.
-# or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same
-# whether working locally or remotely. Start Jekyll with: jekyll serve --baseurl ''
-#url:        	    http://allandenot.com
+
+#url:
 
 # Owner/author information
 owner:
-  name:           Allan Denot
+  name:           Your name
   avatar:         adenot.jpg
   email:          adenot at gmail
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:    'From publishing software to the cloud, I started in 2001 by releasing a Linux distribution in Brazil, built 2 more products, co-founded a company, migrated to Australia, got a master’s degree, got married, became an Australian citizen and a DevOps engineer, now looking into the future of platforms.'
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        denot
-  facebook:       allandenot
-  github:         adenot
+  twitter:        student
+  facebook:       student
+  github:         student
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:  UA-7269254-2
-google_verify: zw7TMFq_zQa7OSBv4Tt7oqrlvN45XpNapPCFpiI0YUw
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
+# google_analytics:  UA-7269254-2
+# google_verify: zw7TMFq_zQa7OSBv4Tt7oqrlvN45XpNapPCFpiI0YUw
 
 # Links to include in footer navigation
 # For external links add external: true
@@ -42,9 +38,7 @@ links:
     url: /about
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    Australia/Sydney
-future:      true
-highlighter: pygments
+timezone:
 markdown:    kramdown
 paginate:    5
 paginate_path: "page:num"
@@ -57,19 +51,11 @@ kramdown:
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  use_coderay: false
-
-  coderay:
-    coderay_line_numbers:
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
 
 prose:
   rooturl: '_posts'
-  siteurl: 'http://adenot.github.io/'
-  relativeLinks: 'http://adenot.github.io/links.jsonp'
+  siteurl: 'https://publisha.github.io/studentblog'
+  relativeLinks: 'https://publisha.github.io/studentblog/links.jsonp'
   media: 'images'
   metadata:
     _posts:
