@@ -5,23 +5,19 @@ disqus_shortname:
 share:            true
 dropcap:		      true
 
-#url:
+url: https://publisha.github.io/studentblog
 
 # Owner/author information
 owner:
   name:           Your name
-  avatar:         adenot.jpg
-  email:          adenot at gmail
+  avatar:         yourpic.jpg
+  email:          your emmail address
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:    'From publishing software to the cloud, I started in 2001 by releasing a Linux distribution in Brazil, built 2 more products, co-founded a company, migrated to Australia, got a master’s degree, got married, became an Australian citizen and a DevOps engineer, now looking into the future of platforms.'
+  description:    'Describe yourself HandheldFriendly'
   # Social networking links used in footer. Update and remove as you like.
   twitter:        student
   facebook:       student
   github:         student
-
-# Analytics and webmaster tools stuff goes here
-# google_analytics:  UA-7269254-2
-# google_verify: zw7TMFq_zQa7OSBv4Tt7oqrlvN45XpNapPCFpiI0YUw
 
 # Links to include in footer navigation
 # For external links add external: true
