@@ -1,25 +1,27 @@
-title:            Student Blog
-description:      "What is this about?"
+title:            My Blog
+description:      "Your name here"
 logo:             logo.png
 disqus_shortname:
 share:            true
 dropcap:		      true
 
+
+# change this to your url
 url: https://publisha.github.io/studentblog
 
 # Owner/author information
 owner:
   name:           Your name
-  avatar:         yourpic.jpg
+  avatar:         yourpic.png
   email:          your emmail address
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:    'Describe yourself HandheldFriendly'
+  description:    'Describe yourself'
   # Social networking links used in footer. Update and remove as you like.
   twitter:        student
   facebook:       student
   github:         student
 
-# Links to include in footer navigation
+# Links to include in header navigation
 # For external links add external: true
 links:
   - title: Home
@@ -30,7 +32,7 @@ links:
     url: /featured
   - title: Categories
     url: /categories
-  - title: About Allan
+  - title: About Me
     url: /about
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
@@ -96,12 +98,10 @@ prose:
               value: personal
             - name: "Interesting"
               value: interesting
-            - name: "DevOps"
-              value: devops
+            - name: "eBook Production"
+              value: ebookproduction
             - name: "Development"
               value: development
-            - name: "Startups"
-              value: startups
           alterable: true
       - name: "tags"
         field:
