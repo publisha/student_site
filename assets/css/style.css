@@ -160,7 +160,7 @@ main, .notepad-share-icons, .notepad-disqus {
 .notepad-site-head .notepad-site-head-content {
   width: 100%;
   text-align: center;
-  background-color: red;
+  background-color: black;
   background-size: cover; }
   .notepad-site-head .notepad-site-head-content.with-bg-cover {
     background-color: rgba(0, 0, 0, 0.7); }
@@ -175,7 +175,7 @@ main, .notepad-share-icons, .notepad-disqus {
     color: white;
     text-transform: uppercase; }
   .notepad-site-head .notepad-site-head-content h1 {
-    padding-top: 4.375rem;
+    padding-top: 2.375rem;
     font-size: 0.875rem;
     margin-bottom: 0.9375rem; }
   .notepad-site-head .notepad-site-head-content h2 {
