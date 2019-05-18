@@ -14,4 +14,8 @@ Consequat ex commodo iriuredolor facilisis euismod iusto in dignissim. Dolore su
 
 ![DSC_5055.jpg]({{site.baseurl}}/images/DSC_5055.jpg)
 
+Now lets try an Instagram post by copying the URL
+
+https://www.instagram.com/p/BxflZOwgctf/
+
 Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
