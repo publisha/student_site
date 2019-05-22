@@ -14,3 +14,7 @@ title: hello World
 **efna;efji**
 
 _Hello_
+
+and here is a picture
+
+![ansiblediscovery-tag.png]({{site.baseurl}}/images/ansiblediscovery-tag.png)
