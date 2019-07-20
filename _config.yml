@@ -1,0 +1,90 @@
+# SITE CONFIGURATION
+baseurl: ""
+url: "https://yoursite.github.io"
+title: My Famous Blog # site's title
+description: "A website with blog posts and pages" # used by search engines
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      image: assets/img/triangle.png # put a logo in here for you
+
+# THEME-SPECIFIC CONFIGURATION
+theme_settings:
+  # Meta
+  avatar: assets/img/triangle.png
+  color_image: /assets/img/lineart.png # In post when you set color
+  favicon: assets/favicon.ico
+
+  # Header and footer text
+  header_text: This is my famous blog
+  header_feature_image: assets/img/pexels/triangular.jpeg
+  footer_text:
+    Powered by <a href="https://publishing.brookes.ac.uk">OICP</a>
+
+  # Icons
+  rss: false  # Make sure you created a feed.xml with feed.xml layout
+  email_address: # Full email address, e.g. "sam@example.com"
+  facebook:
+  flickr:
+  github:
+  google_plus:
+  instagram:
+  keybase:
+  linkedin:  # Full URL
+  pinterest:
+  soundcloud:
+  twitter: # "twitter username"
+  youtube:
+
+  # Sharing options
+  share_buttons:
+    facebook: true
+    twitter: true
+    tumblr:
+    pinterest:
+    linkedin:
+    email: true
+
+  # Scripts / Features
+  google_analytics: # Tracking ID, e.g. "UA-000000-01"
+  disqus_shortname:
+
+  # Localization strings
+  str_follow_on: "Follow on"
+  str_rss_follow: "Follow RSS feed"
+  str_share_on: "Share on"
+  str_add_to: "Add to"
+  str_email: "Email"
+  str_tweet: "Tweet"
+  str_pin_it: "Pin it"
+  str_next_post: "Next post"
+  str_previous_post: "Previous post"
+  str_next_page: "Next"
+  str_previous_page: "Prev"
+  str_javascript_required_disqus: "Please enable JavaScript to view comments."
+
+  # Post navigation
+  post_navigation: true
+
+  # Colours, typography and padding
+  # Open the "_sass > base" folder, and open "_variables.scss"
+
+# PAGINATION
+paginate: 5
+paginate_path: "blog/page:num"
+
+# PORTFOLIO
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:name
+
+# BUILD SETTINGS
+markdown: kramdown
+highlighter: rouge
+plugins: [jekyll-paginate, jekyll-seo-tag]
+exclude: [".jekyll-cache", "Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "*.gem", ".idea",
+          "LICENSE", "README.md", "screenshot.png", "assets/package.json", "assets/node_modules", "assets/gulpfile.js"]
