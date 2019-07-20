@@ -547,10 +547,11 @@ article, .comments, .feature-image .post-content, .feature-image footer,
     }
 }
 
-.header-txt-shadow, .call-out p, .call-out a, .call-out li, .call-out h1,
+/* .header-txt-shadow, .call-out p, .call-out a, .call-out li, .call-out h1,
 .call-out h2, .call-out h3, .call-out h4, .call-out h5, h1.title {
-    text-shadow: 1px 1px 2px #3f3f3f
-}
+    text-shadow: 1px 1px 2px #3f3f3f;
+} */
+
 
 .button {
     border-radius: 0.3em;
@@ -597,7 +598,7 @@ article, .comments {
 
 article header {
     margin-bottom: 6%;
-    text-align: center
+    text-align: left;
 }
 
 article .footnotes {
@@ -735,7 +736,9 @@ header h1 {
 }
 
 #main {
-    background-position: 100% 0, 0 center, center top
+    /* background-position: 100% 0, 0 center, center top;
+    background-size: cover;
+    object-fit: cover !important; */
 }
 
 .posts .post-teaser {
@@ -1280,4 +1283,13 @@ ul.share-buttons .sr-only {
 .post-content img {
   width: 100%;
   padding:0;
+}
+
+
+.call-out {
+background-color: rgb(61, 172, 147);
+background-repeat: no-repeat;
+background-position: center;
+/* background-size: 100%;
+background-size: cover; */
 }
