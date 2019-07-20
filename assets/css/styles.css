@@ -751,7 +751,7 @@ header h1 {
 
 .posts .post-teaser .post-img {
     vertical-align: middle;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     overflow: hidden
 }
 
