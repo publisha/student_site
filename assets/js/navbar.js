@@ -20,4 +20,4 @@ document.addEventListener("DOMContentLoaded", function (event) {
 //
 //     mainStyle.backgroundPosition = 'center ' + parseInt(-x / 1) + 'px' + ', center, center';
 //   });
-// });
+});
