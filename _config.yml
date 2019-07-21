@@ -55,8 +55,8 @@ share_buttons:
   str_previous_page: "Prev"
   str_javascript_required_disqus: "Please enable JavaScript to view comments."
 
-  # Post navigation
-  post_navigation: true
+# Post navigation
+post_navigation: true
 
   # Colours, typography and padding
   # Open the "_sass > base" folder, and open "_variables.scss"
