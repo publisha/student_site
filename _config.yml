@@ -1,5 +1,5 @@
 # SITE CONFIGURATION
-baseurl: ""
+baseurl: "/student_site" #change this to empty ('')
 url: "https://yoursite.github.io"
 title: My Famous Blog # site's title
 description: "A website with blog posts and pages" # used by search engines
