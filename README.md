@@ -3,39 +3,29 @@
 
 ## Usage
 
-1. Fork and clone the [Type on Strap repo](https://github.com/sylhare/Type-On-Strap): `git clone https://github.com/Sylhare/Type-on-Strap.git`
-2. Install [Jekyll](https://jekyllrb.com/docs/installation/): `gem install jekyll`, check [#1](https://github.com/Sylhare/Type-on-Strap/issues/1) if you have a problem.
-3. Install the theme's dependencies: `bundle install`
-4. Customize the theme
-	- Github Page: [update `_config.yml`](https://github.com/Sylhare/Type-on-Strap#site-configuration)
-5. Run the Jekyll server: `jekyll serve`
 
 ## Structure
 
 Here are the main files of the template
 
 ```bash
-jekyll-theme-basically-basic
+File structure
 ├── _draft	               # To store your drafts, they won't be published on your site
-├── _includes	               # theme includes
-├── _layouts                   # theme layouts (see below for details)
-├── _portfolio	               # collection of article to be populated in the portfolio page
+├── _includes	               # html includes
+├── _layouts                   # html layouts (see below for details)
 ├── _posts                     # Blog posts
-├── _sass                      # Sass partials
 ├── assets
-|  ├── js	               # theme javascript, Katex, jquery, bootstrap, jekyll search,
-|  ├── css                     # isolated Bootstrap, font-awesome, katex and main css
+|  ├── js	               # javascript files,
+|  ├── css                 # stylesheets (edit styles.css)
 |  ├── fonts		       # Font-Awesome, and other fonts
-|  └── img		       # Images used for the template
+|  └── img		       	   # Images used for the site
 ├── pages
-|   ├── 404.md		       # To be displayed when url is wrong
-|   ├── about.md               # About example page
-|   ├── gallery.md             # Gallery page for your photos
-|   ├── portfolio.md	       # Portfolio page for your projects
+|   ├── 404.md		       # To be displayed when a url is wrong
+|   ├── about.md           # About your site (edit this first)
 |   ├── search.html	       # Search page
-|   └── search.json            # Specify the search target (page, post, collection)
-├── _config.yml                # sample configuration
-└── index.html                 # sample home page (blog page paginated)
+|   └── search.json        # Specify the search target (page, post, collection)
+├── _config.yml                # configurationfor the site
+└── index.html                 # home page (actually the blog page)
 ```
 
 ## Configure
@@ -60,19 +50,18 @@ Jekyll website *without* a subpath (such as a GitHub Pages website for a given u
   url: "https://username.github.io/"
 ```
 
-Please configure this  before using the theme.
+Please configure this before using the student blog.
 
 ### Meta and Branding
 
-Meta variables hold basic information about your Jekyll site which will be used throughout the site
-and as meta properties for search engines, browsers, and the site's RSS feed.
+Meta variables hold basic information about your Jekyll site which will be used throughout the site and as meta properties for search engines, browsers, and the site's RSS feed.
 
 Change these variables in `_config.yml`:
 
 ```yml
   theme_settings:
-    title: My Jekyll Blog                 # Name of website
-    avatar: assets/img/triangle.png       # Path of avatar image, to be displayed in the theme's header
+    title: My Student Blog                 # Name of website
+    avatar: assets/img/triangle.png       # Path of avatar image, to be displayed in the site header
     description: My blog posts            # Short description, primarily used by search engines
 ```
 
@@ -128,10 +117,9 @@ except for the following variables:
 
 ```yml
   theme_settings:
-     rss: true                                                   # Make sure you created a feed.xml with feed.xml layout
+     rss: true    # Make sure you created a feed.xml with feed.xml layout
      email_address: type@example.com
-     linkedin: https://www.linkedin.com/in/FirstLast
-     stack_exchange: https://stackoverflow.com/users/0000/first-last
+     linkedin: https://www.linkedin.com/in/my name
 ```
 
 ### Comments (via Disqus)
@@ -157,32 +145,6 @@ to `_config.yml` like so:
      google_analytics: UA-NNNNNNNN-N
 ```
 
-### Math typesetting
-
-When KateX is set in `_config.yml`:
-
-```yml
-  theme_settings:
-     katex: true # to Enable it
-```
-
-You can then wrap math expressions with `$$` signs in your posts and make sure you have set the `katex` variable
-in `_config.yml` to `true` for math typesetting.
-
-For inline math typesetting, type your math expression on the *same line* as your content. For example:
-
-```latex
-Type math within a sentence $$2x^2 + x + c$$ to display inline
-```
-
-For display math typesetting, type your math expression on a *new line*. For example:
-
-```latex
-$$
-  \bar{y} = {1 \over n} \sum_{i = 1}^{n}y_i
-$$
-```
-
 ### Post excerpt
 
 The [excerpt](https://jekyllrb.com/docs/posts/#post-excerpts) are the first lines of an article that is display on the blog page.
@@ -200,7 +162,7 @@ some text in the excerpt
 ... rest of the text not shown in the excerpt ...
 ```
 
-The html is stripped out of the excerpt so it only display text.
+The html is stripped out of the excerpt so it only displays text.
 
 ## Layout
 Please refer to the [Jekyll docs for writing posts](https://jekyllrb.com/docs/posts/).
@@ -213,24 +175,16 @@ This are the basic features you can use with the  `post` layout.
 ```yml
 ---
 layout: post
-title: Hello World                                # Title of the page
-hide_title: true                                  # Hide the title when displaying the post, but shown in lists of posts
-feature-img: "assets/img/sample.png"              # Add a feature-image to the post
-thumbnail: "assets/img/thumbnail/sample-th.png"   # Add a thumbnail image on blog view
-color: rgb(80,140,22)                             # Add the specified color as feature image, and change link colors in post
-bootstrap: true                                   # Add bootstrap to the page
-tags: [sample, markdown, html]
+title: Hello World       			# Title of the page
+hide_title: true         			# Hide the title
+image: "assets/img/sample.png" 	 	# Add a feature-image to the post
+caption: Oxford from the parks   	# A caption used for this image
+tags: [holiday, Oxford, life]       # tags allow you to group the posts
+published: false                    # change to true to make the post live
 ---
 ```
 
-With `thumbnail`, you can add a smaller image than the `feature-img`.
-If you don't want/have a thumbnail you can still use the same image as the feature one.
 
-The background used when `color` is set comes from `lineart.png` from [xukimseven](https://github.com/xukimseven)
-you can edit it in the config file (`theme_settings > color_image`). If you want another one, put it in `/assets/img` as well.
-
-The **bootstrap** is not mandatory and is only useful if you want to add bootstrapped content in your page.
-It will respect the page and theme layout, mind the padding on the sides.
 
 ### Layout: Page
 
@@ -250,63 +204,27 @@ tags: [sample, markdown, html]
 ```
 
 The hide only hides your page from the navigation bar, it is however still generated and can be access through its link.
-Use the `_draft` folder to keep files from being generated on your site.
+Use the `_draft` folder to keep files from being generated on your site or put `published: false` in the metadata.
 
 ### Layout: Default
 
-This layout includes the head, navigation bar and footer around your content.
+This layout includes the head, navigation bar and footer around your content. All pages will use this layout unless you create a different one.
 
 ## Feature pages
 
-All feature pages besides the "home" one are stored in the `page` folder,
+All feature pages besides the "home" one are stored in the `pages` folder,
 they will appear in the navigation bar unless you set `Hide: true` in the front matter.
 
 Here are the documentation for the other feature pages that can be added through `_config.yml`.
 
 ### Home
 
-This page is the used as the home page of the template (in the `index.html`). It displays the list of article in `_posts`.
+This page is  used as the home page of the template (in the `index.html`). It displays the list of article in `_posts`.
 You can use this layout in another page (adding a title to it will make it appear in the navigation bar).
-
-The recommended width and height for the home picture is width:`2484px;` and height:`1280px`
-which are the dimension of the actual picture for it to be rolling down as you scroll the page.
-
-### Portfolio
-
-Portfolio is a feature page that will take all the markdown/html files in the `_portfolio` folder to create a 3-columns image portfolio matrix.
-
-To use the portfolio, simply create a `portfolio.md` with this information inside:
-```yml
----
-layout: page
-title : Portfolio
----
-
-{% include portfolio.html %}
-```
-
-### Gallery
-
-You can create a gallery using [Masonry JS](https://masonry.desandro.com/) which will placing the pictures in optimal position
-based on available vertical space.
-You need to specify the `gallery_path` which will be used to find the pictures to render.
-It will take all of the picture under that directory. Then use the `include` to add it in your page.
-
-```
----
-layout: page
-title: Gallery
-gallery: "assets/img/pexels"
----
-
-{% include gallery.html gallery_path=page.gallery %}
-```
-
 
 ### Search
 
-The search feature is based on [Simple-Jekyll-search](https://github.com/christian-fei/Simple-Jekyll-Search)
-there is a `search.json` file that will create a list of all of the site posts, pages and portfolios.
+The search feature is based on [Simple-Jekyll-search](https://github.com/christian-fei/Simple-Jekyll-Search) there is a `search.json` file that will create a list of all of the site posts, pages and portfolios.
 
 Then there's a `search.js` displaying the formatted results entered in the `search.html` page.
 
@@ -340,45 +258,5 @@ tags: [sample, markdown, html]
 All the tags will be listed in `tags.html` with a link toward the pages or posts.
 The Tag page can be hidden with the `hide` option. You can remove the icon by removing `icon` (like for the search page).
 
-## Template as a Gem
 
-You can use Type-on-strap as a [gem](https://rubygems.org/gems/type-on-strap).
-Checkout an example in the [gem-demo branch](https://github.com/Sylhare/Type-on-Strap/tree/gem-demo).
-To make the feature pages available in from the gem I created them as layouts that can be invoked in the pages folder.
 
-So if you're using the template as a theme, Make sure you have:
-  - A `index.html` file
-  - The right `_config.yml` with the theme setting such as `theme: type-on-strap` uncommented
-  - The feature page included. (ex: as it is already in `pages`)
-  - Some content ready in `_posts` and `_portfolio` to be displayed
-
-Now you can use any theme gem with github pages : [29/11/2017 Github Pages Broadcast](https://github.com/blog/2464-use-any-theme-with-github-pages)
-
-## Advanced
-
-### Minimizing and optimizing: css, js and images
-
-Before you need to have `node` and `npm` installed:
-- Windows: https://nodejs.org/
-- Ubuntu/Debian: `apt-get install nodejs npm libgl1 libxi6`
-- Fedora (dnf) / RHEL/CentOS (yum): `dnf install node npm libglvnd-glx libXi`
-
-Then you need to install [`gulp-cli`](https://gulpjs.com/) and its dependencies:
-```shell
-cd assets/
-sudo npm install gulp-cli -g
-npm install
-```
-
-**Now, whenever you want to minify and optimize, run:**
-```shell
-cd assets/
-gulp default
-# tip: run a git status to see the changes
-git status
-```
-
-## License
-
-There are some fonts and component on this theme going under the MIT licence as well in this theme.
-[The MIT License (MIT)](https://raw.githubusercontent.com/Sylhare/Type-on-Strap/master/LICENSE)
