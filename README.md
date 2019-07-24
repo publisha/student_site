@@ -60,8 +60,8 @@ Change these variables in `_config.yml`:
 
 ```yml
 title: My Student Blog                 # Name of website
-avatar: assets/img/triangle.png       # Path of avatar image, to be displayed in the site header
-description: My blog posts            # Short description, primarily used by search engines
+avatar: assets/img/triangle.png        # Path of avatar image, to be displayed in the site header
+description: My blog posts             # Short description, primarily used by search engines
 ```
 
 ### Customizing text
@@ -71,9 +71,9 @@ description: My blog posts            # Short description, primarily used by sea
 Customize your site header/footer with these variables in `_config.yml`:
 
 ```yml
-	header_text: Welcome to my Jekyll blog
-	header_feature_image: assets/img/sample3.png
-	footer_text: Copyright 2019
+    header_text: Welcome to my Jekyll blog
+    header_feature_image: assets/img/sample3.png
+    footer_text: Copyright 2019
 ```
 
 #### Localisation string
