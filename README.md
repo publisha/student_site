@@ -59,10 +59,9 @@ Meta variables hold basic information about your Jekyll site which will be used 
 Change these variables in `_config.yml`:
 
 ```yml
-  theme_settings:
-    title: My Student Blog                 # Name of website
-    avatar: assets/img/triangle.png       # Path of avatar image, to be displayed in the site header
-    description: My blog posts            # Short description, primarily used by search engines
+title: My Student Blog                 # Name of website
+avatar: assets/img/triangle.png       # Path of avatar image, to be displayed in the site header
+description: My blog posts            # Short description, primarily used by search engines
 ```
 
 ### Customizing text
@@ -72,10 +71,9 @@ Change these variables in `_config.yml`:
 Customize your site header/footer with these variables in `_config.yml`:
 
 ```yml
-  theme_settings:
-    header_text: Welcome to my Jekyll blog
-    header_feature_image: assets/img/sample3.png
-    footer_text: Copyright 2017
+	header_text: Welcome to my Jekyll blog
+	header_feature_image: assets/img/sample3.png
+	footer_text: Copyright 2019
 ```
 
 #### Localisation string
@@ -85,7 +83,6 @@ Change localization string variables in `_config.yml`.
 English text used in the theme has been grouped  so you can quickly translate the theme or change labels to suit your needs.
 
 ```yml
-  theme_settings:
      str_follow_on: "Follow on"
      str_rss_follow: "Follow RSS feed"
      str_email: "Email"
@@ -116,11 +113,11 @@ All icon variables should be your username enclosed in quotes (e.g. "username") 
 except for the following variables:
 
 ```yml
-  theme_settings:
      rss: true    # Make sure you created a feed.xml with feed.xml layout
      email_address: type@example.com
      linkedin: https://www.linkedin.com/in/my name
 ```
+
 
 ### Comments (via Disqus)
 
@@ -131,7 +128,6 @@ To enable Disqus comments, add your [Disqus shortname](https://help.disqus.com/c
 to your project's `_config.yml` file:
 
 ```yml
-  theme_settings:
      disqus_shortname: my_disqus_shortname
 ```
 
@@ -141,7 +137,6 @@ To enable Google Analytics, add your [tracking ID](https://support.google.com/an
 to `_config.yml` like so:
 
 ```yml
-  theme_settings:
      google_analytics: UA-NNNNNNNN-N
 ```
 
@@ -188,7 +183,7 @@ published: false                    # change to true to make the post live
 
 ### Layout: Page
 
-The page layout have a bit more features explained here.
+The _page layout_ have a bit more features explained here.
 
 ```yml
 ---
@@ -196,24 +191,24 @@ layout: page
 title: "About"
 subtitle: "This is a subtitle"
 feature-img: "assets/img/sample.png"
-permalink: /about.html               # Set a permalink your your page
-hide: true                           # Prevent the page title to appear in the navbar
-icon: "fa-search"                    # Will Display only the fontawesome icon (here: fa-search) and not the title
+permalink: /about.html    # Set a permalink your your page
+hide: true                # Prevent the page title to appear in the navbar
+icon: "fa-search"         # Will Display only the fontawesome icon (here: fa-search) and not the title
 tags: [sample, markdown, html]
 ---
 ```
 
-The hide only hides your page from the navigation bar, it is however still generated and can be access through its link.
+The *hide* only hides your page from the navigation bar, it is however still generated and can be access through its link.
 Use the `_draft` folder to keep files from being generated on your site or put `published: false` in the metadata.
 
 ### Layout: Default
 
 This layout includes the head, navigation bar and footer around your content. All pages will use this layout unless you create a different one.
 
-## Feature pages
+## Special pages
 
-All feature pages besides the "home" one are stored in the `pages` folder,
-they will appear in the navigation bar unless you set `Hide: true` in the front matter.
+All special pages besides the "home" one are stored in the `pages` folder,
+they will appear in the navigation bar unless you set `hide: true` in the front matter.
 
 Here are the documentation for the other feature pages that can be added through `_config.yml`.
 
@@ -249,7 +244,7 @@ For example:
 ---
 layout: post
 title: Markdown and HTML
-tags: [sample, markdown, html]
+tags: [Oxford, Publishing, Cinema]
 ---
 ```
 
@@ -257,6 +252,5 @@ tags: [sample, markdown, html]
 
 All the tags will be listed in `tags.html` with a link toward the pages or posts.
 The Tag page can be hidden with the `hide` option. You can remove the icon by removing `icon` (like for the search page).
-
 
 
