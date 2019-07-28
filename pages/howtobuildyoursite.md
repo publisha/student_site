@@ -11,21 +11,32 @@ Here are are the steps to take
 
 ## Software tools needed
 
-* Get Atom
-	* Install in your own `Applications` folder
+* Get Atom (atom.io)
+	* Once this has downloaded copy the application into  your own `Applications` folder
+		* Note: You may need to create an `Applications` folder inside your `Home` folder.
+		* > >>> image in here?
 * Get Git Desktop
-	* Install in your own `Applications` folder
+	* Once again this will download a file into your downloads folder. Copy this to  your own `Applications` folder
 
 ### Add some packages to Atom
+ 
+ Open Atom (you can turn off the welcome window and welcome guide tab and no need to send usage data). Locate the `Packages` menu and move down to  the settings view. Select Install packages/Themes. In the Search text box, type markdown and locate the package called tool-bar-markdown-writer (__check this__)— maybe markdown-writer.
+ 
+ Get the toolbar package first:
+ 
+ 
+* Tool-bar
+* markdown-writer
+* toolbar-markdown-writer
 
-* Toolbar
-* Markdown toolbar
+settings for toolbar ... file extensions
+
 
 ## Setup [^1]Github
 
 ### Create a free account on Github.com
-You do not need to use your Brookes credentials nor your Brookes email address because this web site and account is yours forever should you wish to continue using it after your course.
 
+You do not need to use your Brookes credentials nor your Brookes email address because this web site and account is yours forever should you wish to continue using it after your course.
 >Naming the account (**your username**) is important (although you can change later) because this will become part of your website URL. For example, if you name the account `MyLoveofBooks`then the web site will become `MyLovofBooks.github.io`. Not all names will be available and yours may be rejected if it is already taken.
 
 Please remember your username and password or keep somewhere safe.
@@ -40,12 +51,17 @@ Use the template link to receive the repository in your own github account.
 
 > You should now have a copy of the template web site on github
 
+Although it is always possible to edit the files directly on the github site, there is a much better way!
+
 ### Getting a local copy
 
-Clone
-Github Desktop
+To edit and add content you will need to work on the site on a local copy. To do this, you should go to the github page for your repository and find the `Clone or download` button.  Select `Clone` and your copy of Github Desktop should then open.
+
 Choose a local space or even Creative Cloud (don’t use google drive)
-Once the clone has finished you can now open in Atom
+
+Once the clone has finished you can now open in Atom. 
+
+> Image of the site in Atom
 
 ### Configuring your site
 
