@@ -4,7 +4,7 @@ title: How to Build Your Web Site
 subtitle: Writing with Markdown
 permalink: /howto/
 published: true
-hidden: true
+hide: true
 tags: [Help, Markdown]
 ---
 
@@ -15,7 +15,7 @@ Here are are the steps to take
 * Get Atom (atom.io)
 	* Once this has downloaded copy the application into  your own `Applications` folder
 		* Note: You may need to create an `Applications` folder inside your `Home` folder.
-		* > >>> image in here?
+		* image in here?
 * Get Git Desktop
 	* Once again this will download a file into your downloads folder. Copy this to  your own `Applications` folder
 
