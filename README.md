@@ -18,12 +18,13 @@ File structure
 |  ├── js	               # javascript files,
 |  ├── css                 # stylesheets (edit styles.css)
 |  ├── fonts		       # Font-Awesome, and other fonts
-|  └── img		       	   # Images used for the site
+|  └── img		       	   # Branding and logo images used for the site
 ├── pages
 |   ├── 404.md		       # To be displayed when a url is wrong
 |   ├── about.md           # About your site (edit this first)
 |   ├── search.html	       # Search page
 |   └── search.json        # Specify the search target (page, post, collection)
+├── images                 # Your site images will go into this folder (when posting blog posts year and month folder will be created)
 ├── _config.yml                # configurationfor the site
 └── index.html                 # home page (actually the blog page)
 ```
@@ -36,18 +37,11 @@ If a variable in this document is marked as "optional", disable the feature by r
 
 
 ### Site configuration
-Configure Jekyll as your own blog or with a subpath in in `_config.yml`:
-
-Jekyll website *without* a subpath (such as a GitHub Pages website for a given username):
+Configure as your own website in `_config.yml`:
 
 ```yml
   baseurl: ""
   url: "https://username.github.io"
-```
-
-```yml
-  baseurl: "/sub-directory"
-  url: "https://username.github.io/"
 ```
 
 Please configure this before using the student blog.
@@ -71,7 +65,7 @@ description: My blog posts             # Short description, primarily used by se
 Customize your site header/footer with these variables in `_config.yml`:
 
 ```yml
-    header_text: Welcome to my Jekyll blog
+    header_text: Welcome to my Student blog
     header_feature_image: assets/img/sample3.png
     footer_text: Copyright 2019
 ```
@@ -80,7 +74,7 @@ Customize your site header/footer with these variables in `_config.yml`:
 
 Change localization string variables in `_config.yml`.
 
-English text used in the theme has been grouped  so you can quickly translate the theme or change labels to suit your needs.
+English text used in the template has been grouped  so you can quickly change labels to suit your needs.
 
 ```yml
      str_follow_on: "Follow on"
@@ -97,7 +91,7 @@ English text used in the theme has been grouped  so you can quickly translate th
 
 ### Other features
 
-Jekyll works with [liquid](https://shopify.github.io/liquid/) tags usually represented by:
+This site uses a Jekyll framework and so works with [liquid language](https://shopify.github.io/liquid/) tags usually represented by:
 
 ```
 {{ liquid.tag | filter }}
@@ -252,5 +246,4 @@ tags: [Oxford, Publishing, Cinema]
 
 All the tags will be listed in `tags.html` with a link toward the pages or posts.
 The Tag page can be hidden with the `hide` option. You can remove the icon by removing `icon` (like for the search page).
-
 
