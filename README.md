@@ -3,8 +3,14 @@
 
 ## Usage
 
+This is a template set up for students to begin their own web site. The template is created by Chris Jennings and is based on various Jekyll themes.
 
-## Structure
+`Jekyll` is a system for building and editing static web sites; meaning that it does not need a database for the content. Content can be added with a simple text language called `Markdown`. You can explore and learn **Markdown** here:
+
+https://commonmark.org/help/tutorial/
+
+
+## Structure of the template and files
 
 Here are the main files of the template
 
@@ -103,15 +109,7 @@ You can learn more about them on [shopify's doc](https://help.shopify.com/themes
 ### Footer's icons
 
 Display the site's icon from [Font Awesome](https://fortawesome.github.io/Font-Awesome/) in the footer.
-All icon variables should be your username enclosed in quotes (e.g. "username") in `_config.yml`,
-except for the following variables:
-
-```yml
-     rss: true    # Make sure you created a feed.xml with feed.xml layout
-     email_address: type@example.com
-     linkedin: https://www.linkedin.com/in/my name
-```
-
+All icon variables should be your username enclosed in quotes (e.g. "username") in `_config.yml`.
 
 ### Comments (via Disqus)
 
@@ -177,7 +175,7 @@ published: false                    # change to true to make the post live
 
 ### Layout: Page
 
-The _page layout_ have a bit more features explained here.
+The _page_ layout has more features explained here.
 
 ```yml
 ---
@@ -246,4 +244,3 @@ tags: [Oxford, Publishing, Cinema]
 
 All the tags will be listed in `tags.html` with a link toward the pages or posts.
 The Tag page can be hidden with the `hide` option. You can remove the icon by removing `icon` (like for the search page).
-
