@@ -4,7 +4,7 @@ title: How to Build Your Web Site
 subtitle: Writing with Markdown
 permalink: /howto/
 published: true
-hide: true
+hidden: true
 tags: [Help, Markdown]
 ---
 
@@ -15,7 +15,7 @@ Here are are the steps to take
 * Get Atom (atom.io)
 	* Once this has downloaded copy the application into  your own `Applications` folder
 		* Note: You may need to create an `Applications` folder inside your `Home` folder.
-		* image in here?
+		* > >>> image in here?
 * Get Git Desktop
 	* Once again this will download a file into your downloads folder. Copy this to  your own `Applications` folder
 
@@ -42,13 +42,15 @@ You do not need to use your Brookes credentials nor your Brookes email address b
 
 Please remember your username and password or keep somewhere safe.
 
+> Choose a **Free** account and go through the various steps although you can skip the questions about your interests. You will also need to verify your email address. Optionally you can edit your profile and add an avatar image.
+
 Once you are logged in to Github, go to the following URL:
 
 https://github.com/publisha/student_site/
 
 > Add picture here of Template link
 
-Use the template link to receive the repository in your own github account.
+Use the template link to receive the repository in your own github account. Make sure that you choose the `Public` option.
 
 > You should now have a copy of the template web site on github
 
@@ -56,11 +58,13 @@ Although it is always possible to edit the files directly on the github site, th
 
 ### Getting a local copy
 
-To edit and add content you will need to work on the site on a local copy. To do this, you should go to the github page for your repository and find the `Clone or download` button.  Select `Clone` and your copy of Github Desktop should then open.
+Open GitHub Desktop (previously installed) and sign in. Fill in the details. You can untick the submit details. You should see you repository previously created from the template. Select this and choose the blue button bottom left that says `Clone your repository`. At this point you will be asked for a location where you want to save the repository. The `Local Path` box allows you to choose the location. I advise **not** using Google drive but you can use Creative Cloud.
 
 Choose a local space or even Creative Cloud (don’t use google drive)
 
-Once the clone has finished you can now open in Atom. 
+Once the clone has finished you can now `Open in Atom`. 
+
+> If you are doing this on a computer without Xcode installed you will be asked to download some software.  Once you have done this, you should restart your computer.  **Note**: Brookes students using the MACs do not need to do this.
 
 > Image of the site in Atom
 
@@ -91,7 +95,7 @@ Meta variables hold basic information about your Jekyll site which will be used 
 Change these variables in `_config.yml`:
 
 ```yml
-title: My Student Blog                 # Name of website
+title: My Student Blog                 # Name of website will appear top left on your pages
 avatar: assets/img/triangle.png        # Path of avatar image, to be displayed in the site header (you can create a logo do make an image of yourself)
 description: My blog posts             # Short description, primarily used by search engines
 ```
@@ -136,6 +140,10 @@ If you want to create another page, you can duplicate the *About* page so that y
 
 Markdown is a way to write for a web site that uses simple structure and markup that will then be converted to HTML. It is useful to understand how `Markdown` works, but actually, when we use **Atom** with the added package, the elements can be selected from a toolbar. 
 
+ You can explore and learn **Markdown** here:
+
+https://commonmark.org/help/tutorial/
+
 > Picture of Atom here
 
 Here are some examples of what the Markdown syntax means.
@@ -148,7 +156,7 @@ This is **bold** text.
 
 This is *italic* text
 
-````
+```
 
 ### yml metadata
 
@@ -169,6 +177,17 @@ Some of this metadata is generated automatically when you create a new post (the
 We will describe how you can add images to your posts and pages later, but all content can also have a `feature image` and this image will appear at the top of the page. You will need to place this image into your `images` folder and then provide the link to it in your metadata.
 
 > **Tip** you can drag images into the images folder (make sure that they do _not_ have spaces in the file name) and then `right-click` over the image and copy the path. Then paste this path into the metadata for `image: pathtoimage`.
+
+## Getting the new content up to the web
+
+Atom interacts with your github site, so once you have made changes or added a post, you will need to open the `Git` pane (bottom right) and then notice the changed or added files up at the right. These are `upstaged changes`.
+ >Atom pic
+  Now click `Stage changes` and these will move down to the `Staged Changes` pane. You need to write something in the commit box, so that the changes will have a meaning to you later. You can now `Push` these changes to Github but for the first time you will need to add your credentials (remember to tick the remember box).
+
+## Your first look at your new site
+
+go to Github.com and sign in
+Under settings, scroll down towards the bottom. You should see that your site is available now at `username.github.io`.
 
 [^1]: What is Github?
 
