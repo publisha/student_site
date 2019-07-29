@@ -5,12 +5,16 @@ title: My Famous Blog # site's title
 description: "A website with blog posts and pages" # used by search engines
 
 # SITE-SPECIFIC CONFIGURATION
+# Change these 2 images for your own site
 
-avatar: assets/img/triangle.png
+avatar: assets/img/face.jpg
 favicon: assets/favicon.ico
 
 # Header and footer text
+# Change this text to yourown
 header_text: This is my famous blog
+
+# find an iamge for your own home page
 header_feature_image: images/hhh.jpg
 footer_text:
     Powered by <a href="https://publishing.brookes.ac.uk">OICP</a>
