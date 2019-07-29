@@ -3,7 +3,8 @@ layout: page
 title: How to Build Your Web Site
 subtitle: Writing with Markdown
 permalink: /howto/
-published: false
+published: true
+hidden: true
 tags: [Help, Markdown]
 ---
 
