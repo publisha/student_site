@@ -7,7 +7,7 @@ image: images/2019/07/DSC_4666.jpg
 caption: ""
 ---
 
-This is just a sample post that you should delete or set to `published:false`. This paragraph will appear on the home page as a preview of the post. The rest below this paragraph will appear on the blog post page. The `feature image` is optional and you should enter the path to it in the metadata above.
+This is just a sample post that you should delete or set to `published:false`. This paragraph will appear on the home page as a preview of the post. The rest below this paragraph will appear on the blog post page. The `page image` is optional and you should enter the path to it in the metadata above.
 
 > Here follows some more placeholder text. You can see the `markdown` when viewing this post in Atom. This is a _blockquote_.
 
@@ -30,6 +30,8 @@ Vitae purus faucibus ornare suspendisse. At augue eget arcu dictum varius duis a
 3. just add a number
 4. And full stop
 5. there you are
+
+There is a lot more that you learn about `markdown` but by using **Atom** the toolbar will help!
 
 A arcu cursus vitae congue mauris. Sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur. Praesent tristique magna sit amet purus gravida quis. Cras ornare arcu dui vivamus arcu felis bibendum ut tristique. Quam viverra orci sagittis eu volutpat odio facilisis mauris. Lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque. Eget sit amet tellus cras adipiscing enim eu. Nec dui nunc mattis enim. Orci nulla pellentesque dignissim enim sit amet. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique.
 
