@@ -25,7 +25,6 @@ Here are are the steps to take
  
  Get the toolbar package first:
  
- 
 * Tool-bar
 * markdown-writer
 * toolbar-markdown-writer
@@ -172,22 +171,22 @@ metadata goes here
 
 Some of this metadata is generated automatically when you create a new post (the date for example). You will also need to edit this metadata to confirm that the post is ready to be published; change from `published:false` to `published:true`.
 
-#### Feature images
+#### Page image
 
-We will describe how you can add images to your posts and pages later, but all content can also have a `feature image` and this image will appear at the top of the page. You will need to place this image into your `images` folder and then provide the link to it in your metadata.
+We will describe how you can add images to your posts and pages later, but all content can also have a `page image` and this image will appear at the top of the page. You will need to place this image into your `images` folder and then provide the link to it in your metadata.
 
 > **Tip** you can drag images into the images folder (make sure that they do _not_ have spaces in the file name) and then `right-click` over the image and copy the path. Then paste this path into the metadata for `image: pathtoimage`.
 
 ## Getting the new content up to the web
 
-Atom interacts with your github site, so once you have made changes or added a post, you will need to open the `Git` pane (bottom right) and then notice the changed or added files up at the right. These are `upstaged changes`.
+Atom interacts with your github site, so once you have made changes or added a post, you will need to open the `Git` pane (bottom right) and then notice the changed or added files up at the right. These are `Unstaged Changes`.
  >Atom pic
-  Now click `Stage changes` and these will move down to the `Staged Changes` pane. You need to write something in the commit box, so that the changes will have a meaning to you later. You can now `Push` these changes to Github but for the first time you will need to add your credentials (remember to tick the remember box).
+  Now click `Stage All` and these will move down to the `Staged Changes` pane. You need to write something in the commit box, so that the changes will have a meaning to you later. You can now `Push` these changes to Github but for the first time you will need to add your credentials (remember to tick the remember box).
 
 ## Your first look at your new site
 
 go to Github.com and sign in
-Under settings, scroll down towards the bottom. You should see that your site is available now at `username.github.io`.
+Under settings, scroll down towards the bottom. You should see that your site is available now at `username.github.io`. This is your web site address and clicking here will take you to your site.
 
 [^1]: What is Github?
 
