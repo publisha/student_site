@@ -21,16 +21,17 @@ Here are are the steps to take
 
 ### Add some packages to Atom
  
- Open Atom (you can turn off the welcome window and welcome guide tab and no need to send usage data). Locate the `Packages` menu and move down to  the settings view. Select Install packages/Themes. In the Search text box, type markdown and locate the package called tool-bar-markdown-writer (__check this__)— maybe markdown-writer.
+ >add picture here
  
- Get the toolbar package first:
+ Open Atom (you can turn off the welcome window and welcome guide tab and no need to send usage data). Locate the `Packages` menu and move down to  the settings view. Select Install packages/Themes. In the Search text box, type *toolbar* and locate the following packages:
  
-* Tool-bar
+* tool-bar
 * markdown-writer
 * toolbar-markdown-writer
 
-settings for toolbar ... file extensions
+You can change the settings for toolbar. I suggest that you 
 
+Now that you have the software installed you can register for the free web site at github.
 
 ## Setup [^1]Github
 
@@ -187,6 +188,15 @@ Atom interacts with your github site, so once you have made changes or added a p
 
 go to Github.com and sign in
 Under settings, scroll down towards the bottom. You should see that your site is available now at `username.github.io`. This is your web site address and clicking here will take you to your site.
+
+
+## Running your web site locally
+
+It is often useful to see your website working on your own computer before you make the site live to the world. Sometimes you might have a technical issue (wrong code on a page) that prevents the site from updating. Looking at the site on a local computer will help track down any issues.
+
+To run the site locally you need to create a `Jekyll` server and this means installing some software. This has to be done through the terminal on your MAC.
+
+You can explore how to this yourself here: 
 
 [^1]: What is Github?
 
