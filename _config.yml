@@ -70,5 +70,71 @@ paginate_path: "blog/page:num"
 markdown: kramdown
 highlighter: rouge
 plugins: [jekyll-paginate, jekyll-seo-tag]
-exclude: [".jekyll-cache", "Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "*.gem", ".idea",
-          "LICENSE", "README.md", "screenshot.png", "assets/package.json", "assets/node_modules", "assets/gulpfile.js"]
+exclude: [".jekyll-cache", "Gemfile", "README.md"]
+          
+# You can also use prose (prose.io) to edit and post to your site
+prose:
+  #rooturl: '_posts'
+  siteurl: 'https://yoursite.github.io'
+  media: 'images'
+  ignore:
+    - README.md
+    - _config.yml
+    - /_layouts
+    - /_includes
+    - /_site
+    - _mdwriter.cson
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "published"
+          value: false
+      - name: "image"
+          element: "text"
+          label: "image url in here"
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Add Tags"
+          placeholder: "Choose Tags"
+          options:
+            - name: "Apples"
+              value: "apples"
+            - name: "Bananas"
+              value: "bananas"
+      - name: "categories"
+        field:
+          element: "multiselect"
+          label: "Add Categories"
+          placeholder: "Choose Categories"
+          options:
+            - name: "InDesign"
+              value: "InDsign"
+            - name: "HTML"
+              value: "HTML"
+            - name: "CSS"
+              value: "CSS"
+            - name: "Typography"
+              value: "Typography"
+            - name: "Using GitHub"
+              value: "Using GitHub"
+    pages:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "page"
+      - name: "permalink"
+        field:
+          element: "text"
+          label: "Permalink"
+          value: ""
