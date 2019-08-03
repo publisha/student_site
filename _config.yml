@@ -100,6 +100,7 @@ prose:
           label: "published"
           value: false
       - name: "image"
+        field:
           element: "text"
           label: "image url in here"
       - name: "tags"
