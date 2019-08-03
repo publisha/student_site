@@ -144,7 +144,7 @@ Markdown is a way to write for a web site that uses simple structure and markup 
 
 https://commonmark.org/help/tutorial/
 
-> Picture of Atom here
+![The structure pane of the Atom app](/images/2019/07/atomstructure.jpg)
 
 Here are some examples of what the Markdown syntax means.
 
