@@ -4,32 +4,28 @@ title: How to Build Your Web Site
 subtitle: Writing with Markdown
 permalink: /howto/
 published: true
-hidden: true
+hide: true
 tags: [Help, Markdown]
 ---
 
-Here are are the steps to take 
+Here are are the steps to take
 
 ## Software tools needed
 
-* Get Atom (atom.io)
+You only need an application called _Atom_ and to help you get the correct settings I am providing you with a distribution package as a `zip` file. This will create an `Applications` folder which you need to place inside your `Home` folder. From the Finder use `Go` to find your Home folder.
+
+<!-- * Get Atom (atom.io)
 	* Once this has downloaded copy the application into  your own `Applications` folder
 		* Note: You may need to create an `Applications` folder inside your `Home` folder.
 		* > >>> image in here?
 * Get Git Desktop
-	* Once again this will download a file into your downloads folder. Copy this to  your own `Applications` folder
+	* Once again this will download a file into your downloads folder. Copy this to  your own `Applications` folder -->
 
-### Add some packages to Atom
- 
- >add picture here
- 
- Open Atom (you can turn off the welcome window and welcome guide tab and no need to send usage data). Locate the `Packages` menu and move down to  the settings view. Select Install packages/Themes. In the Search text box, type *toolbar* and locate the following packages:
- 
+The `Atom` program comes ready built with the following packages that will help you write posts for your blog.
+
 * tool-bar
 * markdown-writer
 * toolbar-markdown-writer
-
-You can change the settings for toolbar. I suggest that you 
 
 Now that you have the software installed you can register for the free web site at github.
 
@@ -38,6 +34,7 @@ Now that you have the software installed you can register for the free web site 
 ### Create a free account on Github.com
 
 You do not need to use your Brookes credentials nor your Brookes email address because this web site and account is yours forever should you wish to continue using it after your course.
+
 >Naming the account (**your username**) is important (although you can change later) because this will become part of your website URL. For example, if you name the account `MyLoveofBooks`then the web site will become `MyLovofBooks.github.io`. Not all names will be available and yours may be rejected if it is already taken.
 
 Please remember your username and password or keep somewhere safe.
@@ -52,17 +49,21 @@ https://github.com/publisha/student_site/
 
 Use the template link to receive the repository in your own github account. Make sure that you choose the `Public` option.
 
-> You should now have a copy of the template web site on github
+> You should now have a copy of the template web site in your github
 
 Although it is always possible to edit the files directly on the github site, there is a much better way!
 
 ### Getting a local copy
 
+
+
+> note we can do with just Atom
+
 Open GitHub Desktop (previously installed) and sign in. Fill in the details. You can untick the submit details. You should see you repository previously created from the template. Select this and choose the blue button bottom left that says `Clone your repository`. At this point you will be asked for a location where you want to save the repository. The `Local Path` box allows you to choose the location. I advise **not** using Google drive but you can use Creative Cloud.
 
 Choose a local space or even Creative Cloud (don’t use google drive)
 
-Once the clone has finished you can now `Open in Atom`. 
+Once the clone has finished you can now `Open in Atom`.
 
 > If you are doing this on a computer without Xcode installed you will be asked to download some software.  Once you have done this, you should restart your computer.  **Note**: Brookes students using the MACs do not need to do this.
 
@@ -138,7 +139,7 @@ If you want to create another page, you can duplicate the *About* page so that y
 
 ### Markdown
 
-Markdown is a way to write for a web site that uses simple structure and markup that will then be converted to HTML. It is useful to understand how `Markdown` works, but actually, when we use **Atom** with the added package, the elements can be selected from a toolbar. 
+Markdown is a way to write for a web site that uses simple structure and markup that will then be converted to HTML. It is useful to understand how `Markdown` works, but actually, when we use **Atom** with the added package, the elements can be selected from a toolbar.
 
  You can explore and learn **Markdown** here:
 
@@ -196,7 +197,7 @@ It is often useful to see your website working on your own computer before you m
 
 To run the site locally you need to create a `Jekyll` server and this means installing some software. This has to be done through the terminal on your MAC.
 
-You can explore how to this yourself here: 
+You can explore how to this yourself here:
 
 [^1]: What is Github?
 

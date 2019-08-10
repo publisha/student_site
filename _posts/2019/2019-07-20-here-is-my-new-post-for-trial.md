@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Here is a sample blog post
-date: 2019-07-20 13:05
+date: 2019-08-06
 published: true
-image: images/2019/07/DSC_4666.jpg
-caption: ""
+image: images/2019/07/tomatoes.jpg
+caption: "I love tomatoes"
 ---
 
 This is just a sample post that you should delete or set to `published:false`. This paragraph will appear on the home page as a preview of the post. The rest below this paragraph will appear on the blog post page. The `page image` is optional and you should enter the path to it in the metadata above.
@@ -17,7 +17,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 [![Here are some students]({{site.baseurl}}/images/2019/07/IMG_1016.jpg)]({{site.baseurl}}/images/2019/07/IMG_1016.jpg)
 
-Vitae purus faucibus ornare suspendisse. At augue eget arcu dictum varius duis at consectetur lorem. Eleifend mi in nulla posuere sollicitudin aliquam. Sit amet dictum sit amet. Malesuada pellentesque elit eget gravida. Ac turpis egestas maecenas pharetra convallis posuere morbi leo urna. Sagittis eu volutpat odio facilisis mauris sit amet massa vitae. Lorem sed risus ultricies tristique nulla aliquet enim tortor at. Leo vel orci porta non pulvinar neque laoreet suspendisse interdum. Neque aliquam vestibulum morbi blandit cursus risus at ultrices mi. 
+Vitae purus faucibus ornare _suspendisse_. At augue eget arcu dictum varius duis at consectetur lorem. Eleifend mi in nulla posuere sollicitudin aliquam. Sit amet dictum sit amet. Malesuada pellentesque elit eget gravida. Ac turpis egestas maecenas pharetra convallis posuere morbi leo urna. **Sagittis** eu volutpat odio facilisis mauris sit amet massa vitae. Lorem sed risus ultricies **tristique** nulla aliquet enim tortor at. Leo vel orci porta non pulvinar neque laoreet suspendisse interdum. Neque aliquam vestibulum morbi blandit cursus risus at ultrices mi.
 
 * Here is a sequence of bulleted text.
 * And we can just use an asterisk at the front of each line

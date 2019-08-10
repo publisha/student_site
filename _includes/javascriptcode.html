@@ -12,13 +12,13 @@
     });
     </script>
     <script>
-        $("a[href$='.jpg'],a[href$='.jpeg'],a[href$='.png'],a[href$='.gif']").attr('rel', 'gallery').attr('class', 'sideimage').fancybox();
+        $("a[href$='.jpg'],a[href$='.jpeg'],a[href$='.png'],a[href$='.gif']").attr('rel', 'gallery').attr('class', 'postimage').fancybox();
     </script>
 
 		<!-- here follows a script to put the alt tag to a caption under the images -->
 
 <script>
-$(".article-post img").each(function() {
+$(".post-content img").each(function() {
     var imageCaption = $(this).attr("alt");
     if (imageCaption != '') {
         $("<span class='caption'>" + imageCaption +

@@ -1,5 +1,5 @@
 # SITE CONFIGURATION
-baseurl: "/student_site" #change this to empty ('')
+baseurl: '' #change this to empty ('')
 url: "https://yoursite.github.io"
 title: My Famous Blog # site's title
 description: "A website with blog posts and pages" # used by search engines
@@ -16,9 +16,11 @@ header_text: This is my famous blog
 
 # find an iamge for your own home page
 header_feature_image: images/hhh.jpg
+# change the following to your name or site name
 footer_text:
-    Powered by <a href="https://publishing.brookes.ac.uk">OICP</a>
+    "Copyright 2019 My name"
   # Icons
+  # If you have any of these accounst add them in here
 rss: false  # Make sure you created a feed.xml with feed.xml layout
 email_address: # Full email address, e.g. "sam@example.com"
 facebook:
@@ -71,7 +73,7 @@ markdown: kramdown
 highlighter: rouge
 plugins: [jekyll-paginate, jekyll-seo-tag]
 exclude: [".jekyll-cache", "Gemfile", "README.md"]
-          
+
 # You can also use prose (prose.io) to edit and post to your site
 prose:
   #rooturl: '_posts'
