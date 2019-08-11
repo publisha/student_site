@@ -12,7 +12,7 @@ Here are are the steps to take
 
 ## Software tools needed
 
-> Seems like we need to zip just the .atom folder and then install this in the home folder. But download the atom app from the web site... into the Applications folder.
+> Seems like we need to zip just the .atom folder and then install this in the home folder. But download the atom app from the web site... into the Applications folder. This a hidden folder so users should put the zip file in the home folder before unpacking,
 
 You only need an application called _Atom_ and to help you get the correct settings I am [providing you with a distribution][61862e36] package as a `zip` file. This will create an `atom` folder which you need to place inside your `Home` folder. From the Finder use `Go` to find your Home folder.
 
@@ -41,7 +41,7 @@ Now that you have the software installed you can register for the free web site 
 
 You do not need to use your Brookes credentials nor your Brookes email address because this web site and account is yours forever should you wish to continue using it after your course.
 
->Naming the account (**your username**) is important (although you can change later) because this will become part of your website URL. For example, if you name the account `MyLoveofBooks`then the web site will become `MyLovofBooks.github.io`. Not all names will be available and yours may be rejected if it is already taken.
+>Naming the account (**your username**) is important (although you can change later) because this will become part of your website URL. For example, if you name the account `MyLoveofBooks`then the web site will become `mylovofbooks.github.io`. Not all names will be available and yours may be rejected if it is already taken.
 
 Please remember your username and password or keep somewhere safe.
 
@@ -55,17 +55,16 @@ https://github.com/publisha/student_site/
 
 Use the template link to receive the repository in your own github account. Make sure that you choose the `Public` option.
 
-> You should now have a copy of the template web site in your github
+> You should now have a copy of the template web site in your github account.
 
 Although it is always possible to edit the files directly on the github site, there is a much better way!
 
 ### Getting a local copy
 
+Select the repository just created and locate the button labelled `Clone or download`. Once you click this, you need to copy the URL (the button to the right of the URL field will copy this for you).
 
+> Now open Atom with one new file open.
 
-> note we can do with just Atom
-
-Open GitHub Desktop (previously installed) and sign in. Fill in the details. You can untick the submit details. You should see you repository previously created from the template. Select this and choose the blue button bottom left that says `Clone your repository`. At this point you will be asked for a location where you want to save the repository. The `Local Path` box allows you to choose the location. I advise **not** using Google drive but you can use Creative Cloud.
 
 Choose a local space or even Creative Cloud (don’t use google drive)
 
