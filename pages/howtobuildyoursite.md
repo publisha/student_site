@@ -12,7 +12,11 @@ Here are are the steps to take
 
 ## Software tools needed
 
-You only need an application called _Atom_ and to help you get the correct settings I am providing you with a distribution package as a `zip` file. This will create an `Applications` folder which you need to place inside your `Home` folder. From the Finder use `Go` to find your Home folder.
+You only need an application called _Atom_ and to help you get the correct settings I am [providing you with a distribution][61862e36] package as a `zip` file. This will create an `atom` folder which you need to place inside your `Home` folder. From the Finder use `Go` to find your Home folder.
+
+  [61862e36]: http://www.publisha.org/resources/atom.zip "Get this zip file and unpack"
+
+> **Note:** If you use Safari as your browser then the zip file will unpack into your downloads folder. Be sure to take the whole folder called _atom_ into your `Home` folder and run Atom from within the atom folder.
 
 <!-- * Get Atom (atom.io)
 	* Once this has downloaded copy the application into  your own `Applications` folder
