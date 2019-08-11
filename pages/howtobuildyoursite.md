@@ -12,6 +12,8 @@ Here are are the steps to take
 
 ## Software tools needed
 
+> Seems like we need to zip just the .atom folder and then install this in the home folder. But download the atom app from the web site... into the Applications folder.
+
 You only need an application called _Atom_ and to help you get the correct settings I am [providing you with a distribution][61862e36] package as a `zip` file. This will create an `atom` folder which you need to place inside your `Home` folder. From the Finder use `Go` to find your Home folder.
 
   [61862e36]: http://www.publisha.org/resources/atom.zip "Get this zip file and unpack"
