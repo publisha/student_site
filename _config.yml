@@ -104,15 +104,14 @@ prose:
           label: "title"
       - name: "published"
         field:
-          element: "button"
+          element: "checkbox"
           label: "published or not"
-          off: false
-          on: true
+          value: false
       - name: "image"
         field:
           element: "text"
-          label: "feature image for the posy"
-          help: "Optioanlly, Paste the URL of the image here"
+          label: "Optional feature image for the post"
+          help: "Paste the URL of the image here"
       - name: "caption"
         field:
           element: "text"
@@ -162,15 +161,14 @@ prose:
           value: ""
       - name: "published"
         field:
-          element: "button"
+          element: "checkbox"
           label: "published or not"
-          off: false
-          on: true
+          value: false
       - name: "image"
         field:
           element: "text"
-          label: "feature image for the posy"
-          help: "Optioanlly, Paste the URL of the image here"
+          label: "Optional feature image for the page"
+          help: "Paste the URL of the image here"
       - name: "caption"
         field:
           element: "text"
