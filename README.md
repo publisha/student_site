@@ -73,7 +73,7 @@ Customize your site header/footer with these variables in `_config.yml`:
 ```yml
     header_text: Welcome to my Student blog
     header_feature_image: assets/img/sample3.png
-    footer_text: Copyright 2019
+    footer_text: Copyright 2019 - Your Name
 ```
 
 #### Localisation string
@@ -113,8 +113,7 @@ All icon variables should be your username enclosed in quotes (e.g. "username") 
 
 ### Comments (via Disqus)
 
-Optionally, if you have a [Disqus](https://disqus.com/) account, you can show a
-comments section below each post.
+Optionally, if you have a [Disqus](https://disqus.com/) account, you can show a comments section below each post.
 
 To enable Disqus comments, add your [Disqus shortname](https://help.disqus.com/customer/portal/articles/466208)
 to your project's `_config.yml` file:
@@ -162,8 +161,8 @@ This are the basic features you can use with the  `post` layout.
 ```yml
 ---
 layout: post
-title: Hello World       			# Title of the page
-hide_title: true         			# Hide the title
+title: Hello World       			    # Title of the page
+hide_title: true         			    # Hide the title
 image: "assets/img/sample.png" 	 	# Add a feature-image to the post
 caption: Oxford from the parks   	# A caption used for this image
 tags: [holiday, Oxford, life]       # tags allow you to group the posts

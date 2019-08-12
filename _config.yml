@@ -86,6 +86,12 @@ prose:
     - /_includes
     - /_site
     - _mdwriter.cson
+    - Gemfile.lock
+    - .gitignore
+    - feed.xml
+    - gemfile
+    - index.html
+    - /assets
   metadata:
     _posts:
       - name: "layout"
@@ -98,13 +104,26 @@ prose:
           label: "title"
       - name: "published"
         field:
-          element: "checkbox"
-          label: "published"
-          value: false
+          element: "button"
+          label: "published or not"
+          off: false
+          on: true
       - name: "image"
         field:
           element: "text"
-          label: "image url in here"
+          label: "feature image for the posy"
+          help: "Optioanlly, Paste the URL of the image here"
+      - name: "caption"
+        field:
+          element: "text"
+          label: "caption in here"
+          help: "add a caption to the image"
+      - name: "date"
+        field:
+          element: "text"
+          label: "date"
+          help: "current date and time"
+          value: CURRENT_DATETIME
       - name: "tags"
         field:
           element: "multiselect"
@@ -141,3 +160,25 @@ prose:
           element: "text"
           label: "Permalink"
           value: ""
+      - name: "published"
+        field:
+          element: "button"
+          label: "published or not"
+          off: false
+          on: true
+      - name: "image"
+        field:
+          element: "text"
+          label: "feature image for the posy"
+          help: "Optioanlly, Paste the URL of the image here"
+      - name: "caption"
+        field:
+          element: "text"
+          label: "caption in here"
+          help: "add a caption to the image"
+      - name: "date"
+        field:
+          element: "text"
+          label: "date"
+          help: "current date and time"
+          value: CURRENT_DATETIME
