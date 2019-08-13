@@ -105,7 +105,7 @@ prose:
       - name: "published"
         field:
           element: "checkbox"
-          label: "published or not"
+          label: "published"
           value: false
       - name: "image"
         field:
