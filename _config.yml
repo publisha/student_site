@@ -1,7 +1,7 @@
 # SITE CONFIGURATION
 baseurl: '' #change this to empty ('')
 url: "https://yoursite.github.io"
-title: My Famous Blog # site's title
+title: My name or organisation # site's title
 description: "A website with blog posts and pages" # used by search engines
 
 # SITE-SPECIFIC CONFIGURATION
@@ -12,7 +12,7 @@ favicon: assets/favicon.ico
 
 # Header and footer text
 # Change this text to yourown
-header_text: This is my famous blog
+header_text: Me and my blog
 
 # find an iamge for your own home page
 header_feature_image: images/hhh.jpg
@@ -72,7 +72,7 @@ paginate_path: "blog/page:num"
 markdown: kramdown
 highlighter: rouge
 plugins: [jekyll-paginate, jekyll-seo-tag]
-exclude: [".jekyll-cache", "Gemfile", "README.md"]
+exclude: [".jekyll-cache", "README.md"]
 
 # You can also use prose (prose.io) to edit and post to your site
 prose:
