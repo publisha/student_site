@@ -72,7 +72,7 @@ paginate_path: "blog/page:num"
 markdown: kramdown
 highlighter: rouge
 plugins: [jekyll-paginate, jekyll-seo-tag]
-exclude: [".jekyll-cache", "README.md"]
+exclude: [".jekyll-cache", "Gemfile", "README.md"]
 
 # You can also use prose (prose.io) to edit and post to your site
 prose:
