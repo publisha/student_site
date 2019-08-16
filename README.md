@@ -1,6 +1,5 @@
 # Template for a student web site and blog
 
-
 ## Usage
 
 This is a template set up for students to begin their own web site. The template is created by Chris Jennings and is based on various Jekyll themes.

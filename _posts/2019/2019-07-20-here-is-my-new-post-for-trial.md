@@ -15,7 +15,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Here is a an image
 
-[![Here are some students]({{site.baseurl}}/images/2019/07/IMG_1016.jpg)]({{site.baseurl}}/images/2019/07/IMG_1016.jpg)
+[![Here are some students](/images/2019/07/IMG_1016.jpg)](/images/2019/07/IMG_1016.jpg)
 
 Vitae purus faucibus ornare _suspendisse_. At augue eget arcu dictum varius duis at consectetur lorem. Eleifend mi in nulla posuere sollicitudin aliquam. Sit amet dictum sit amet. Malesuada pellentesque elit eget gravida. Ac turpis egestas maecenas pharetra convallis posuere morbi leo urna. **Sagittis** eu volutpat odio facilisis mauris sit amet massa vitae. Lorem sed risus ultricies **tristique** nulla aliquet enim tortor at. Leo vel orci porta non pulvinar neque laoreet suspendisse interdum. Neque aliquam vestibulum morbi blandit cursus risus at ultrices mi.
 

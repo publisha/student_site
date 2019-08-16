@@ -203,20 +203,13 @@ lineStyles:
     emptyBefore: "{captureBefore} [ ] "
   blockquote: before: "> "
 
-# Image tag template, available variables:
-#
-# - src: image path in local if copied or same as rawSrc
-# - relativeFileSrc: image path relative to your edit file
-# - relativeSiteSrc: image path relative to your open project
-# - alt: alt text
-# - width: width of image
-# - height: height of image
-# - align: alignment of image
-#
-imageTag: "[![{alt}]({{site.baseurl}}/{relativeSiteSrc})]({{site.baseurl}}/{relativeSiteSrc})"
-# Use relative path to image from the opened file
+# image tag template should I add the root
+# adding link to self so that it enlarges
+
+imageTag: "[![{alt}](\/{src})](\/{src})"
+# use relative path to image from the opened file
 relativeImagePath: false
-# Rename copyed image based on title/alt
+# rename copyed image based on title/alt
 renameImageOnCopy: false
 
 # Inline link tag template
