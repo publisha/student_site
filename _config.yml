@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
-baseurl: '' #change this to empty ('')
-url: "https://yoursite.github.io"
+baseurl: ''
+url: "https://yoursite.github.io"   #change this to yours ('')
 title: My name or organisation # site's title
 description: "A website with blog posts and pages" # used by search engines
 
@@ -15,7 +15,9 @@ favicon: assets/favicon.ico
 header_text: Me and my blog
 
 # find an iamge for your own home page
-header_feature_image: images/hhh.jpg
+header_feature_image: /images/hhh.jpg
+twitter_username: puboxford  #change to your own twitter account
+lang: en_gb
 # change the following to your name or site name
 footer_text:
     "Copyright 2019 My name"
@@ -86,7 +88,7 @@ prose:
     - /_includes
     - /_site
     - _mdwriter.cson
-    - Gemfile.lock
+    - .Gemfile.lock
     - .gitignore
     - feed.xml
     - gemfile
@@ -107,7 +109,7 @@ prose:
           element: "checkbox"
           label: "published"
           value: false
-      - name: "image"
+      - name: "header_feature_image"
         field:
           element: "text"
           label: "Optional feature image for the post"

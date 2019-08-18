@@ -3,7 +3,7 @@ layout: post
 title: Here is a sample blog post
 date: 2019-08-06
 published: true
-image: images/2019/07/tomatoes.jpg
+header_feature_image: images/2019/07/tomatoes.jpg
 caption: "I love tomatoes"
 ---
 
