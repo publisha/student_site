@@ -31,7 +31,7 @@ Vitae purus faucibus ornare _suspendisse_. At augue eget arcu dictum varius duis
 4. And full stop
 5. there you are
 
-There is a lot more that you learn about `markdown` but by using **Atom** the toolbar will help!
+There is a lot more that you can learn about `markdown` but by using **Atom** the toolbar will help!
 
 A arcu cursus vitae congue mauris. Sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur. Praesent tristique magna sit amet purus gravida quis. Cras ornare arcu dui vivamus arcu felis bibendum ut tristique. Quam viverra orci sagittis eu volutpat odio facilisis mauris. Lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque. Eget sit amet tellus cras adipiscing enim eu. Nec dui nunc mattis enim. Orci nulla pellentesque dignissim enim sit amet. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique.
 
