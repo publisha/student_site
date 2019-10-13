@@ -27,7 +27,6 @@ rss: false  # Make sure you created a feed.xml with feed.xml layout
 email_address: # Full email address, e.g. "sam@example.com"
 facebook:
 flickr:
-github:
 google_plus:
 instagram:
 linkedin:  # Full URL
