@@ -20,5 +20,10 @@
       gtag('config', '{{ site.google_analytics }}');
     </script>
     {% endif %}
+    {%- if page.title != site.hide_title -%}
+      <title>{{ page.title }} | {{site.title}}</title>
+    {%- else -%}
+      <title>{{site.title}}</title>
+    {%- endif -%}
     {% include metadata.html %}
 </head>
