@@ -1,4 +1,4 @@
-{% if site.rss %}
+{%- if site.rss -%}
 <li>
 	<a href="{{ "feed.xml" | absolute_url }}" title="{{ site.str_rss_follow }}">
 		<span class="fa-stack fa-lg">
@@ -7,9 +7,9 @@
         </span>
 	</a>
 </li>
-{% endif %}
+{%- endif -%}
 
-{% if site.email_address %}
+{%- if site.email_address -%}
 <li>
 	<a href="mailto:{{ site.email_address }}" title="{{ site.str_email }}">
 		<span class="fa-stack fa-lg">
@@ -18,9 +18,9 @@
         </span>
 	</a>
 </li>
-{% endif %}
+{%- endif -%}
 
-{% if site.behance %}
+{%- if site.behance -%}
 <li>
 	<a href="https://www.behance.net/{{ site.behance }}" title="{{ site.str_follow_on }} Behance">
 		<span class="fa-stack fa-lg">
@@ -29,9 +29,9 @@
         </span>
 	</a>
 </li>
-{% endif %}
+{%- endif -%}
 
-{% if site.bitbucket %}
+{%- if site.bitbucket -%}
 <li>
 	<a href="https://bitbucket.org/{{ site.bitbucket }}" title="{{ site.str_follow_on }} Bitbucket">
 		<span class="fa-stack fa-lg">
@@ -40,9 +40,9 @@
         </span>
 	</a>
 </li>
-{% endif %}
+{%- endif -%}
 
-{% if site.facebook %}
+{%- if site.facebook -%}
 <li>
 	<a href="https://www.facebook.com/{{ site.facebook }}" title="{{ site.str_follow_on }} Facebook">
 		<span class="fa-stack fa-lg">
@@ -51,9 +51,9 @@
         </span>
 	</a>
 </li>
-{% endif %}
+{%- endif -%}
 
-{% if site.flickr %}
+{%- if site.flickr -%}
 <li>
 	<a href="https://www.flickr.com/photos/{{ site.flickr }}" title="{{ site.str_follow_on }} Flickr">
 		<span class="fa-stack fa-lg">
@@ -62,9 +62,9 @@
         </span>
 	</a>
 </li>
-{% endif %}
+{%- endif -%}
 
-{% if site.google_plus %}
+{%- if site.google_plus -%}
 <li>
 	<a href="https://plus.google.com/{{ site.google_plus }}" title="{{ site.str_follow_on }} Google+">
 		<span class="fa-stack fa-lg">
@@ -73,9 +73,9 @@
         </span>
 	</a>
 </li>
-{% endif %}
+{%- endif -%}
 
-{% if site.instagram %}
+{%- if site.instagram -%}
 <li>
 	<a href="https://instagram.com/{{ site.instagram }}" title="{{ site.str_follow_on }} Instagram">
 		<span class="fa-stack fa-lg">
@@ -84,9 +84,9 @@
         </span>
 	</a>
 </li>
-{% endif %}
+{%- endif -%}
 
-{% if site.linkedin %}
+{%- if site.linkedin -%}
 <li>
 	<a href="{{ site.linkedin }}" title="{{ site.str_follow_on }} LinkedIn">
 		<span class="fa-stack fa-lg">
@@ -95,9 +95,9 @@
         </span>
 	</a>
 </li>
-{% endif %}
+{%- endif -%}
 
-{% if site.pinterest %}
+{%- if site.pinterest -%}
 <li>
 	<a href="https://www.pinterest.com/{{ site.pinterest }}" title="{{ site.str_follow_on }} Pinterest">
 		<span class="fa-stack fa-lg">
@@ -106,9 +106,9 @@
         </span>
 	</a>
 </li>
-{% endif %}
+{%- endif -%}
 
-{% if site.reddit %}
+{%- if site.reddit -%}
 <li>
 	<a href="https://www.reddit.com/user/{{ site.reddit }}" title="{{ site.str_follow_on }} Reddit">
 		<span class="fa-stack fa-lg">
@@ -117,9 +117,9 @@
         </span>
 	</a>
 </li>
-{% endif %}
+{%- endif -%}
 
-{% if site.soundcloud %}
+{%- if site.soundcloud -%}
 <li>
 	<a href="https://soundcloud.com/{{ site.soundcloud }}" title="{{ site.str_follow_on }} SoundCloud">
 		<span class="fa-stack fa-lg">
@@ -128,9 +128,9 @@
         </span>
 	</a>
 </li>
-{% endif %}
+{%- endif -%}
 
-{% if site.tumblr %}
+{%- if site.tumblr -%}
 <li>
 	<a href="https://{{ site.tumblr }}.tumblr.com/" title="{{ site.str_follow_on }} Tumblr">
 		<span class="fa-stack fa-lg">
@@ -139,9 +139,9 @@
         </span>
 	</a>
 </li>
-{% endif %}
+{%- endif -%}
 
-{% if site.twitter %}
+{%- if site.twitter -%}
 <li>
 	<a href="https://twitter.com/{{ site.twitter }}" title="{{ site.str_follow_on }} Twitter" class="type">
         <span class="fa-stack fa-lg">
@@ -150,9 +150,9 @@
         </span>
 	</a>
 </li>
-{% endif %}
+{%- endif -%}
 
-{% if site.vimeo %}
+{%- if site.vimeo -%}
 <li>
 	<a href="https://vimeo.com/{{ site.vimeo }}" title="{{ site.str_follow_on }} Vimeo" class="type">
         <span class="fa-stack fa-lg">
@@ -161,9 +161,9 @@
         </span>
 	</a>
 </li>
-{% endif %}
+{%- endif -%}
 
-{% if site.wordpress %}
+{%- if site.wordpress -%}
 <li>
 	<a href="https://{{ site.wordpress }}.wordpress.com/" title="{{ site.str_follow_on }} WordPress">
 		<span class="fa-stack fa-lg">
@@ -172,9 +172,9 @@
         </span>
 	</a>
 </li>
-{% endif %}
+{%- endif -%}
 
-{% if site.youtube %}
+{%- if site.youtube -%}
 <li>
 	<a href="https://www.youtube.com/user/{{ site.youtube }}" title="{{ site.str_follow_on }} YouTube">
 		<span class="fa-stack fa-lg">
@@ -183,4 +183,4 @@
         </span>
 	</a>
 </li>
-{% endif %}
+{%- endif -%}
