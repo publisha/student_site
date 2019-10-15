@@ -20,19 +20,3 @@ layout: default
   {% include tags_list.html tags=tag_list %}
 
 </article>
-
-<!-- style the featured page image -->
-{% if page.image %}{% assign image_url = page.image %}
-<style>
-  #main {
-    background-repeat:no-repeat;
-    background-color: rgb(61, 172, 147);
-    background-position: center;
-    background-image: url('{{ image_url | relative_url }}');
-    text-shadow: 0px 0px 10px rgba(0,0,0,0.9) !important;
-  }
-  article header {
-      text-align: center;
-  }
-</style>
-{% endif %}

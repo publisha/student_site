@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-image:  #you can add a picture of you
+header_feature_image:  /images/log.jpg #replace this for yours
 tags:
 published: true
 description:
