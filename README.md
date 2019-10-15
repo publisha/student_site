@@ -8,32 +8,6 @@ This is a template set up for students to begin their own web site. The template
 
 https://commonmark.org/help/tutorial/
 
-
-## Structure of the template and files
-
-Here are the main files of the template
-
-```bash
-File structure
-├── _draft	               # To store your drafts, they won't be published on your site
-├── _includes	               # html includes
-├── _layouts                   # html layouts (see below for details)
-├── _posts                     # Blog posts
-├── assets
-|  ├── js	               # javascript files,
-|  ├── css                 # stylesheets (edit styles.css)
-|  ├── fonts		       # Font-Awesome, and other fonts
-|  └── img		       	   # Branding and logo images used for the site
-├── pages
-|   ├── 404.md		       # To be displayed when a url is wrong
-|   ├── about.md           # About your site (edit this first)
-|   ├── search.html	       # Search page
-|   └── search.json        # Specify the search target (page, post, collection)
-├── images                 # Your site images will go into this folder (when posting blog posts year and month folder will be created)
-├── _config.yml                # configurationfor the site
-└── index.html                 # home page (actually the blog page)
-```
-
 ## Configure
 
 Open `_config.yml` in a text editor to change most of the blog's settings.
@@ -160,16 +134,13 @@ This are the basic features you can use with the  `post` layout.
 ```yml
 ---
 layout: post
-title: Hello World       			    # Title of the page
-hide_title: true         			    # Hide the title
-image: "assets/img/sample.png" 	 	# Add a feature-image to the post
-caption: Oxford from the parks   	# A caption used for this image
-tags: [holiday, Oxford, life]       # tags allow you to group the posts
-published: false                    # change to true to make the post live
+title: Hello World       			            # Title of the page
+date: 2019-08-06
+header_feature_image: images/hello.jpg 	 	# Add a feature-image to the post
+tags: [holiday, Oxford, life]             # to group the posts
+published: false                          # change to true to make live
 ---
 ```
-
-
 
 ### Layout: Page
 
@@ -179,9 +150,9 @@ The _page_ layout has more features explained here.
 ---
 layout: page
 title: "About"
-subtitle: "This is a subtitle"
-feature-img: "assets/img/sample.png"
-permalink: /about.html    # Set a permalink your your page
+subtitle: "This is a subtitle"  # Optional sub title for the page
+header_feature_image: "images/sample.png"
+permalink: /about          # Set a permalink your your page
 hide: true                # Prevent the page title to appear in the navbar
 icon: "fa-search"         # Will Display only the fontawesome icon (here: fa-search) and not the title
 tags: [sample, markdown, html]

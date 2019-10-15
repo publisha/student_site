@@ -4,10 +4,9 @@ title: Here is a sample blog post
 date: 2019-08-06
 published: true
 header_feature_image: images/2019/07/tomatoes.jpg
-caption: "I love tomatoes"
 ---
 
-This is just a sample post that you should delete or set to `published:false`. This paragraph will appear on the home page as a preview of the post. The rest below this paragraph will appear on the blog post page. The `page image` is optional and you should enter the path to it in the metadata above.
+This is just a sample post that you should delete or set to `published:false`. This paragraph will appear on the home page as a preview of the post. The rest below this paragraph will appear on the blog post page. The `header_feature_image` is optional and you should enter the path to it in the metadata above.
 
 > Here follows some more placeholder text. You can see the `markdown` when viewing this post in Atom. This is a _blockquote_.
 
