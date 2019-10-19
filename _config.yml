@@ -75,6 +75,8 @@ highlighter: rouge
 plugins: [jekyll-paginate, jekyll-seo-tag]
 exclude: [".jekyll-cache", "Gemfile", "README.md"]
 
+tags: [Art, Music, Life, Photography, Jobs, Publshing, Books, Cinema]
+
 # You can also use prose (prose.io) to edit and post to your site
 prose:
   #rooturl: '_posts'

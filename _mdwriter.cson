@@ -31,7 +31,7 @@ siteImagesDir: "images/{year}/{month}/"
 # URLs to tags/posts/categories JSON files
 # https://github.com/zhuochun/md-writer/wiki/Settings-for-Front-Matters
 urlForPosts: ""
-urlForTags: ""
+urlForTags: "tags.json"
 urlForCategories: ""
 
 # The front matter key name
@@ -57,7 +57,7 @@ layout: {layout}
 title: {title}
 date: {date}
 published: false
-header_feature_image: 
+header_feature_image:
 caption:
 tags:
 ---
