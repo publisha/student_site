@@ -4,7 +4,12 @@
         {% if post.header_feature_image %}
         <div class="post-img">
             <a aria-label="{{ post.title }}" href="{{ post.url | relative_url }}">
+              {%- if post.caption -%}
+                <img alt="{{ post.caption }}" src="{{ post.header_feature_image | relative_url }}">
+              {%- else -%}
                 <img alt="{{ post.title }}" src="{{ post.header_feature_image | relative_url }}">
+              {%- endif -%}
+
             </a>
         </div>
         {% endif %}
