@@ -18,9 +18,17 @@ If a variable in this document is marked as "optional", disable the feature by r
 ### Site configuration
 Configure as your own website in `_config.yml`:
 
-```yml
+```YAML
   baseurl: ""
   url: "https://username.github.io"
+```
+
+### Tags configurations
+
+You also need to edit the placeholder site url in the file called _mdwriter.cson. This is at line 34 in that file. This will make it easier to select and re-use tags for your posts.
+
+```YAML
+  urlForTags: 'https://yoursite.github.io/tags.json'
 ```
 
 Please configure this before using the student blog.
@@ -152,7 +160,7 @@ layout: page
 title: "About"
 subtitle: "This is a subtitle"  # Optional sub title for the page
 header_feature_image: "images/sample.png"
-permalink: /about          # Set a permalink your your page
+permalink: /about.html          # Set a permalink your your page
 hide: true                # Prevent the page title to appear in the navbar
 icon: "fa-search"         # Will Display only the fontawesome icon (here: fa-search) and not the title
 tags: [sample, markdown, html]
