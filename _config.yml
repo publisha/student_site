@@ -89,11 +89,14 @@ prose:
     - /_includes
     - /_site
     - _mdwriter.cson
-    - .Gemfile.lock
+    - Gemfile.lock
     - .gitignore
     - feed.xml
     - gemfile
     - index.html
+    - samplepost.html
+    - samplehome.html
+    - tags.json
     - /assets
   metadata:
     _posts:
@@ -142,22 +145,6 @@ prose:
               value: "food"
             - name: "Music"
               value: "music"
-      - name: "categories"
-        field:
-          element: "multiselect"
-          label: "Add Categories"
-          placeholder: "Choose Categories"
-          options:
-            - name: "Books"
-              value: "books"
-            - name: "Art"
-              value: "art"
-            - name: "Movies"
-              value: "movies"
-            - name: "Food"
-              value: "food"
-            - name: "Music"
-              value: "music"
     pages:
       - name: "layout"
         field:
@@ -189,3 +176,9 @@ prose:
           label: "date"
           help: "current date and time"
           value: CURRENT_DATETIME
+
+# Exclude these files from your production _site
+exclude:
+  - gemfile
+  - Gemfile.lock
+  - README.md
