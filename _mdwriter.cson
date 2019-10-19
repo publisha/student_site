@@ -57,8 +57,9 @@ layout: {layout}
 title: {title}
 date: {date}
 published: false
-header_feature_image:
+header_feature_image: 
 caption:
+tags:
 ---
 """
 
