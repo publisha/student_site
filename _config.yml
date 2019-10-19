@@ -22,7 +22,7 @@ lang: en_gb
 footer_text:
     "Copyright 2019 My name"
   # Icons
-  # If you have any of these accounst add them in here
+  # If you have any of these accounts add them in here
 rss: false  # Make sure you created a feed.xml with feed.xml layout
 email_address: # Full email address, e.g. "sam@example.com"
 facebook:
@@ -130,26 +130,32 @@ prose:
           label: "Add Tags"
           placeholder: "Choose Tags"
           options:
-            - name: "Apples"
-              value: "apples"
-            - name: "Bananas"
-              value: "bananas"
+            - name: "Books"
+              value: "books"
+            - name: "Art"
+              value: "art"
+            - name: "Movies"
+              value: "movies"
+            - name: "Food"
+              value: "food"
+            - name: "Music"
+              value: "music"
       - name: "categories"
         field:
           element: "multiselect"
           label: "Add Categories"
           placeholder: "Choose Categories"
           options:
-            - name: "InDesign"
-              value: "InDsign"
-            - name: "HTML"
-              value: "HTML"
-            - name: "CSS"
-              value: "CSS"
-            - name: "Typography"
-              value: "Typography"
-            - name: "Using GitHub"
-              value: "Using GitHub"
+            - name: "Books"
+              value: "books"
+            - name: "Art"
+              value: "art"
+            - name: "Movies"
+              value: "movies"
+            - name: "Food"
+              value: "food"
+            - name: "Music"
+              value: "music"
     pages:
       - name: "layout"
         field:
@@ -165,7 +171,7 @@ prose:
           element: "checkbox"
           label: "published or not"
           value: false
-      - name: "image"
+      - name: "header_feature_image"
         field:
           element: "text"
           label: "Optional feature image for the page"
