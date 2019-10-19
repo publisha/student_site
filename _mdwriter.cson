@@ -13,7 +13,7 @@
 
 # Static engine of your blog
 # - One of: general, html, jekyll, octopress, hexo
-siteEngine: "general"
+siteEngine: "jekyll"
 # Website URL of your blog
 siteUrl: ""
 
@@ -31,7 +31,7 @@ siteImagesDir: "images/{year}/{month}/"
 # URLs to tags/posts/categories JSON files
 # https://github.com/zhuochun/md-writer/wiki/Settings-for-Front-Matters
 urlForPosts: ""
-urlForTags: "tags.json"
+urlForTags: "{site.url}/tags.json"
 urlForCategories: ""
 
 # The front matter key name
@@ -59,7 +59,7 @@ date: {date}
 published: false
 header_feature_image:
 caption:
-tags:
+tags:    # use [tag1,tag2]
 ---
 """
 
