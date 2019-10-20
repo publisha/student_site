@@ -75,7 +75,11 @@ highlighter: rouge
 plugins: [jekyll-paginate, jekyll-seo-tag]
 exclude: [".jekyll-cache", "Gemfile", "README.md"]
 
-tags: [Art, Music, Life, Photography, Jobs, Publshing, Books, Cinema]
+# Exclude these files from your production _site
+exclude:
+  - gemfile
+  - Gemfile.lock
+  - README.md
 
 # You can also use prose (prose.io) to edit and post to your site
 prose:
@@ -176,9 +180,3 @@ prose:
           label: "date"
           help: "current date and time"
           value: CURRENT_DATETIME
-
-# Exclude these files from your production _site
-exclude:
-  - gemfile
-  - Gemfile.lock
-  - README.md
