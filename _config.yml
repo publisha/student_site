@@ -10,6 +10,10 @@ description: "A website with blog posts and pages" # used by search engines
 avatar: assets/img/face.jpg
 favicon: assets/favicon.ico
 
+# Your blog on the home page can be arranged as a grid
+
+gridlayout: false # change to true if you want grd layout
+
 # Header and footer text
 # Change this text to yourown
 header_text: Me and my blog
