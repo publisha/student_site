@@ -21,7 +21,7 @@
     </script>
     {% endif %}
     {%- if page.title != site.hide_title -%}
-      <title>{{ page.title }} | {{site.title}}</title>
+      <title>{{site.title}} | {{ page.title }}</title>
     {%- else -%}
       <title>{{site.title}}</title>
     {%- endif -%}
