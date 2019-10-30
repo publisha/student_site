@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
-baseurl: ''
-url: "https://yoursite.github.io"   #change this to yours ('')
+baseurl: ''  #leave this alone
+url: "https://yoursite.github.io"   #change this to yours
 title: My name or organisation # site's title
 description: "A website with blog posts and pages" # used by search engines
 
@@ -76,7 +76,7 @@ paginate_path: "blog/page:num"
 # BUILD SETTINGS
 markdown: kramdown
 highlighter: rouge
-plugins: [jekyll-paginate, jekyll-seo-tag]
+plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-sitemap]
 exclude: [".jekyll-cache", "Gemfile", "README.md"]
 
 # You can also use prose (prose.io) to edit and post to your site
@@ -94,6 +94,7 @@ prose:
     - Gemfile.lock
     - .gitignore
     - feed.xml
+    - sitemap.xml
     - gemfile
     - index.html
     - samplepost.html
