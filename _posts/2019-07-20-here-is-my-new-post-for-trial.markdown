@@ -3,8 +3,8 @@ layout: post
 title: Here is a blog post sample
 date: 2020-01-23
 published: true
-header_feature_image: _uploads/tomatoes.jpg
-caption: "Juicy Tomatoes"
+header_feature_image: _uploads/water.jpg
+caption: "Wood Type"
 tags:
   - Journalism
   - Life
