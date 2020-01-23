@@ -1,8 +1,38 @@
+# collections
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    header_feature_image:
+    caption:
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+    header_feature_image:
+    caption:
+- scope:
+    path: ''
+    type: recipe
+  values:
+    layout: recipe
+    order:
+
 # SITE CONFIGURATION
 baseurl: ''  #leave this alone
 url: "https://yoursite.github.io"   #change this to yours
 title: My name or organisation # site's title
-description: "A website with blog posts and pages" # used by search engines
+description: "A website with a blog" # used by search engines
 
 # SITE-SPECIFIC CONFIGURATION
 # Change these 2 images for your own site
@@ -13,18 +43,20 @@ favicon: assets/favicon.ico
 # Your blog on the home page can be arranged as a grid
 
 gridlayout: false # change to true if you want grd layout
+excerpt_separator: <!--more-->
 
 # Header and footer text
 # Change this text to yourown
-header_text: Me and my blog
+header_text: My blog and my web site
 
 # find an image for your own home page and put it into the images folder
-header_feature_image: /images/hhh.jpg
-twitter_username: puboxford  #change to your own twitter account
+header_feature_image: /uploads/pages.jpg
+
+twitter_username:   #change to your own twitter account
 lang: en_gb
 # change the following to your name or site name
 footer_text:
-    "Copyright 2019 My name"
+    "Copyright 2020 My name"
   # Icons
   # If you have any of these accounts add them in here
 rss: false  # Make sure you created a feed.xml with feed.xml layout
@@ -50,7 +82,7 @@ share_buttons:
 
 # Scripts / Features
 google_analytics: # Tracking ID, e.g. "UA-000000-01"
-disqus_shortname:
+disqus_shortname: # create an account on disqus.com for comments
 
 # Localization strings
 str_follow_on: "Follow on"
@@ -70,112 +102,12 @@ str_javascript_required_disqus: "Please enable JavaScript to view comments."
 post_navigation: true
 
 # PAGINATION
-paginate: 5
+paginate: 10
 paginate_path: "blog/page:num"
 
 # BUILD SETTINGS
 markdown: kramdown
+permalink: pretty
 highlighter: rouge
 plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-sitemap]
 exclude: [".jekyll-cache", "Gemfile", "README.md"]
-
-# You can also use prose (prose.io) to edit and post to your site
-prose:
-  #rooturl: '_posts'
-  siteurl: 'https://yoursite.github.io'
-  media: 'images'
-  ignore:
-    - README.md
-    - _config.yml
-    - /_layouts
-    - /_includes
-    - /_site
-    - _mdwriter.cson
-    - Gemfile.lock
-    - .gitignore
-    - feed.xml
-    - sitemap.xml
-    - gemfile
-    - index.html
-    - samplepost.html
-    - samplehome.html
-    - tags.json
-    - /assets
-  metadata:
-    _posts:
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "post"
-      - name: "title"
-        field:
-          element: "text"
-          label: "title"
-      - name: "published"
-        field:
-          element: "checkbox"
-          label: "published"
-          value: false
-      - name: "header_feature_image"
-        field:
-          element: "text"
-          label: "Optional feature image for the post"
-          help: "Paste the URL of the image here"
-      - name: "caption"
-        field:
-          element: "text"
-          label: "caption in here"
-          help: "add a caption to the image"
-      - name: "date"
-        field:
-          element: "text"
-          label: "date"
-          help: "current date and time"
-          value: CURRENT_DATETIME
-      - name: "tags"
-        field:
-          element: "multiselect"
-          label: "Add Tags"
-          placeholder: "Choose Tags"
-          options:
-            - name: "Books"
-              value: "books"
-            - name: "Art"
-              value: "art"
-            - name: "Movies"
-              value: "movies"
-            - name: "Food"
-              value: "food"
-            - name: "Music"
-              value: "music"
-    pages:
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "page"
-      - name: "permalink"
-        field:
-          element: "text"
-          label: "Permalink"
-          value: ""
-      - name: "published"
-        field:
-          element: "checkbox"
-          label: "published or not"
-          value: false
-      - name: "header_feature_image"
-        field:
-          element: "text"
-          label: "Optional feature image for the page"
-          help: "Paste the URL of the image here"
-      - name: "caption"
-        field:
-          element: "text"
-          label: "caption in here"
-          help: "add a caption to the image"
-      - name: "date"
-        field:
-          element: "text"
-          label: "date"
-          help: "current date and time"
-          value: CURRENT_DATETIME
