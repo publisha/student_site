@@ -44,6 +44,7 @@ favicon: assets/favicon.ico
 
 gridlayout: false # change to true if you want grd layout
 
+
 # Header and footer text
 # Change this text to yourown
 header_text: My blog and my web site

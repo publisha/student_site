@@ -7,6 +7,7 @@ header_feature_image:  /uploads/log.jpg #replace this for yours
 tags:
 published: true
 description:
+hide: true
 ---
 
 This page is where you write something about yourself. You can add pictures so that people know where you come from or where you live.

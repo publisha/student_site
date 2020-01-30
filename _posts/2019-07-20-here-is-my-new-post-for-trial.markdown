@@ -1,10 +1,11 @@
 ---
 layout: post
 title: Here is a blog post sample
-date: 2020-01-23
+date: 2020-01-30 16:02
 published: true
 header_feature_image: _uploads/water.jpg
 caption: "Wood Type"
+pinned:
 tags:
   - Journalism
   - Life
