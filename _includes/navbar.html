@@ -21,20 +21,28 @@
 
     <!-- Menu -->
     <ul class="hide">
-        {% assign name_page = "" %}
-
-        {% for page in site.pages %}
-            {% unless page.title == null or page.hide %}
+			{%- for sites in site.data.othersites -%}
+			{%- unless sites.name == null or sites.siteurl ==  null -%}
+			  <li>
+			    <a class="clear" aria-label="{{ site.name }}" title="{{ site.name }}" href="{{ sites.siteurl }}">
+			      {{ sites.name }}
+			    </a>
+			  </li>
+				{%- endunless -%}
+			{%- endfor -%}
+        {%- assign name_page = "" -%}
+        {%- for page in site.pages -%}
+            {%- unless page.title == null or page.hide -%}
             <li class="separator"> | </li>
             <li>
                 <a class="clear" aria-label="{{ page.title }}" title="{{ page.title }}" href="{{ page.url | relative_url }}">
-                    {% if page.icon %} <i class="fa {{ page.icon }}" aria-hidden="true"></i>
-                    {% else %} {{ page.title }} {% endif%}
+                    {%- if page.icon -%} <i class="fa {{ page.icon }}" aria-hidden="true"></i>
+                    {%- else -%} {{ page.title }} {%- endif -%}
                 </a>
             </li>
-            {% endunless %}
-            {% assign name_page = page.title | append: name_page %}
-        {% endfor %}
+            {%- endunless -%}
+            {%- assign name_page = page.title | append: name_page -%}
+        {%- endfor -%}
     </ul>
 
 	</nav>
