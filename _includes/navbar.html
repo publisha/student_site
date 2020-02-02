@@ -24,7 +24,7 @@
 			{%- for sites in site.data.othersites -%}
 			{%- unless sites.name == null or sites.siteurl ==  null -%}
 			  <li>
-			    <a class="clear" aria-label="{{ site.name }}" title="{{ site.name }}" href="{{ sites.siteurl }}">
+			    <a class="clear" aria-label="{{ sites.name }}" title="{{ sites.name }}" href="{{ sites.siteurl }}">
 			      {{ sites.name }}
 			    </a>
 			  </li>
